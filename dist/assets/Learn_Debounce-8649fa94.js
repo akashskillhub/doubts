@@ -1,0 +1,1 @@
+import{r as a,j as t}from"./index-268f10bc.js";const o=()=>{const[r,s]=a.useState();return a.useEffect(()=>{let e;return r&&(e=setTimeout(()=>{console.log("api call")},2e3)),()=>{clearTimeout(e)}},[r]),t.jsx(t.Fragment,{children:t.jsx("input",{onChange:e=>s(e.target.value),type:"text",placeholder:"search anything"})})};export{o as default};

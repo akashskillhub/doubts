@@ -1,0 +1,1 @@
+import{r as n,j as e}from"./index-268f10bc.js";const c=()=>{const[t,o]=n.useState(10);return n.useEffect(()=>(console.log("effect"),()=>{console.log("cleanup")}),[t]),e.jsxs(e.Fragment,{children:[e.jsx("div",{children:"LearnEffect"}),e.jsx("button",{onClick:r=>o(t+1),children:"+1"})]})};export{c as default};
